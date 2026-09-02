@@ -9,7 +9,8 @@
     "start": "next start",
     "lint": "next lint",
     "type-check": "tsc --noEmit",
-    "export": "next export"
+    "export": "next export",
+    "validate:sacred-texts": "node scripts/validate-sacred-texts.mjs"
   },
   "keywords": [
     "arcanea",
