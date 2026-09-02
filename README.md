@@ -1,21 +1,12 @@
 # Arcanean Library
 
-> Sacred knowledge repository and interactive learning experiences from the Arcanean civilization
+> In-world codices and interactive learning experiences from the fictional Arcanean civilization
 
 ## 🌟 Overview
 
-The Arcanean Library is a comprehensive knowledge repository containing the sacred texts, codices, and interactive learning experiences of the Arcanean civilization. This collection serves as both a historical archive and a dynamic educational platform for modern learners seeking to understand advanced creative and spiritual practices.
+The Arcanean Library is an in-world repository containing the fictional sacred texts, codices, and interactive learning experiences of the Arcanean civilization. It preserves Arcanea narrative IP and creative worldbuilding; it is not a documentary archive of real religions, historical thinkers, or primary-source editions.
 
 ## 📚 Core Collections
-
-### Source and curation layers
-
-- **[Sacred Texts Research Corpus](./research/sacred-texts/README.md)** — original-language witnesses, edition metadata, provenance, and rights decisions.
-- **[Sacred Visions](./collections/sacred-visions/README.md)** — curated contemplative encounters built from governed sources.
-
-Historical sources do not become Arcanea canon automatically. Source,
-translation, interpretation, and new Arcanea composition remain visibly
-separate.
 
 ### 🕮 **Sacred Codices**
 
@@ -169,7 +160,7 @@ pnpm start
 ## 🔮 Features
 
 ### Current Features
-- ✅ **Codex Navigation**: Browse sacred texts by chapter and section
+- ✅ **Codex Navigation**: Browse fictional codices by chapter and section
 - ✅ **Responsive Design**: Optimized for all devices
 - ✅ **Search Functionality**: Find specific insights and teachings
 - ✅ **Progressive Enhancement**: Works without JavaScript
@@ -206,11 +197,11 @@ pnpm start
 
 ## 🤝 Contributing
 
-We welcome contributions to expand the Arcanean knowledge base:
+We welcome contributions to expand the fictional Arcanean knowledge base:
 
 1. Fork the repository
 2. Create a content branch: `git checkout -b content/new-codex`
-3. Add your sacred knowledge following the codex structure
+3. Add your in-world Arcanean codex content following the codex structure
 4. Submit a pull request for review
 
 ### Content Guidelines
@@ -222,10 +213,9 @@ We welcome contributions to expand the Arcanean knowledge base:
 ## 📄 License
 
 This repository is proprietary except where a file or directory carries a
-separate express notice. Third-party source material remains governed by its
-own rights and attribution record. See [LICENSE](./LICENSE),
-[LICENSING.md](./LICENSING.md), and the
-[Sacred Texts rights gate](./research/sacred-texts/RIGHTS.md).
+separate express notice. Third-party material, when referenced, remains governed
+by its own rights and attribution record. See [LICENSE](./LICENSE) and
+[LICENSING.md](./LICENSING.md).
 
 ## 🌌 The Arcanean Legacy
 
