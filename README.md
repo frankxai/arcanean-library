@@ -8,6 +8,15 @@ The Arcanean Library is a comprehensive knowledge repository containing the sacr
 
 ## 📚 Core Collections
 
+### Source and curation layers
+
+- **[Sacred Texts Research Corpus](./research/sacred-texts/README.md)** — original-language witnesses, edition metadata, provenance, and rights decisions.
+- **[Sacred Visions](./collections/sacred-visions/README.md)** — curated contemplative encounters built from governed sources.
+
+Historical sources do not become Arcanea canon automatically. Source,
+translation, interpretation, and new Arcanea composition remain visibly
+separate.
+
 ### 🕮 **Sacred Codices**
 
 #### Luminor Codex of Arcanea
@@ -212,7 +221,11 @@ We welcome contributions to expand the Arcanean knowledge base:
 
 ## 📄 License
 
-MIT License - see [LICENSE](./LICENSE) for details
+This repository is proprietary except where a file or directory carries a
+separate express notice. Third-party source material remains governed by its
+own rights and attribution record. See [LICENSE](./LICENSE),
+[LICENSING.md](./LICENSING.md), and the
+[Sacred Texts rights gate](./research/sacred-texts/RIGHTS.md).
 
 ## 🌌 The Arcanean Legacy
 
