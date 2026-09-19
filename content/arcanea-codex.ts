@@ -1,6 +1,6 @@
-﻿import luminorJson from "../../../Arcanean Library/experience/book/arcanea-codex.json";
-import atelierJson from "../../../Arcanean Library/experience/book/arcanea-atelier-codex.json";
-import oraclesJson from "../../../Arcanean Library/experience/book/arcanea-oracles-codex.json";
+import luminorJson from "./codex/arcanea-codex.json";
+import atelierJson from "./codex/arcanea-atelier-codex.json";
+import oraclesJson from "./codex/arcanea-oracles-codex.json";
 
 export interface CodexAuthor {
   name: string;
