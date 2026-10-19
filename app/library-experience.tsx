@@ -158,6 +158,7 @@ export function LibraryExperience() {
   const codex = activeTome.codex;
 
   useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setView({ type: "preface" });
   }, [activeTomeId]);
 
