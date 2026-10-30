@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:arcanea:firstlight:review-receipt:1.0.0",
+  "title": "Independent display and production review receipt",
+  "description": "This receipt can approve an exhibition revision; it never changes canon acceptance or tool authority.",
+  "type": "object",
+  "required": ["schema_version", "review_id", "target_id", "source_commit", "asset_sha256", "lens", "reviewer_id", "reviewed_on", "decision", "findings", "evidence_refs", "canon_state"],
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {"const": "1.0.0"},
+    "review_id": {"type": "string", "minLength": 8},
+    "target_id": {"type": "string", "minLength": 3},
+    "source_commit": {"type": "string", "pattern": "^[a-f0-9]{40}$"},
+    "asset_sha256": {"type": "array", "items": {"type": "string", "pattern": "^[a-f0-9]{64}$"}, "uniqueItems": true},
+    "lens": {"enum": ["visual_identity", "story_and_canon", "gameplay", "runtime_boundary"]},
+    "reviewer_id": {"type": "string", "minLength": 3},
+    "reviewed_on": {"type": "string", "minLength": 10},
+    "decision": {"enum": ["accept_display_revision", "revise", "reject", "defer"]},
+    "findings": {
+      "type": "array",
+      "items": {"type": "object", "required": ["severity", "detail", "evidence_ref"], "properties": {"severity": {"enum": ["blocking", "major", "minor", "observation"]}, "detail": {"type": "string", "minLength": 5}, "evidence_ref": {"type": "string", "minLength": 3}}}
+    },
+    "evidence_refs": {"type": "array", "minItems": 1, "items": {"type": "string", "minLength": 3}},
+    "canon_state": {"const": "proposal"}
+  }
+}

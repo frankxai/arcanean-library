@@ -1,0 +1,262 @@
+{
+  "schema_version": "1.0.0",
+  "batch_id": "arcanea-firstlight-02",
+  "state": "awaiting_reviews",
+  "canon_state": "proposal",
+  "visibility": "public",
+  "updated_on": "2026-10-30",
+  "source_authority": {
+    "artifact_id": "artifact_arcanean_library_fiction",
+    "canonical_repository": "frankxai/arcanean-library",
+    "canonical_path": "content/proposals/firstlight-02",
+    "registry_repository": "frankxai/agentic-ops",
+    "registry_commit": "f9761fe052a5fb14b26e18dd1f2200e591904082",
+    "lore_base_commit": "f7348fb881ea10e1323a65822bacdefb5dff8750",
+    "product_consumer": "frankxai/arcanea-ai-app",
+    "source_state": "generated_proposals_authorized_for_public_review"
+  },
+  "review_contract": {
+    "decision_values": [
+      "accept_display_revision",
+      "revise",
+      "reject",
+      "defer"
+    ],
+    "canonical_acceptance": "A separate explicit owner/canon decision is required to change canon_state.",
+    "required_receipt_fields": [
+      "review_id",
+      "target_id",
+      "source_commit",
+      "asset_sha256",
+      "lens",
+      "reviewer_id",
+      "reviewed_on",
+      "decision",
+      "findings",
+      "evidence_refs"
+    ],
+    "passing_rule": "No open blocking findings across visual_identity, story_and_canon, gameplay and runtime_boundary. Pending review is never a pass.",
+    "mutation_route": "Submit a review receipt by GitHub pull request against this batch. Do not edit a different agent’s receipt or record a review on their behalf."
+  },
+  "lenses": [
+    {
+      "id": "visual_identity",
+      "responsibility": "Character/visual reviewer",
+      "checks": [
+        "distinct silhouette at thumbnail size",
+        "two images preserve identity locks",
+        "allies read as welcoming and opponents carry threat",
+        "visible action, emotion and earned result",
+        "no unreadable baked-in explanatory text",
+        "camera, anatomy, scale and material integrity"
+      ],
+      "evidence": [
+        "asset hashes",
+        "annotated image observations"
+      ]
+    },
+    {
+      "id": "story_and_canon",
+      "responsibility": "Canon reviewer",
+      "checks": [
+        "proposal state and visibility retained",
+        "no collision with inspected source lore",
+        "Field behavior has cost and explicit limit",
+        "relationships are labelled proposals",
+        "no new cosmological office accepted by implication",
+        "source and rights locators present"
+      ],
+      "evidence": [
+        "pinned source locators",
+        "named contradictions or explicit none within scope"
+      ]
+    },
+    {
+      "id": "gameplay",
+      "responsibility": "Game designer / play reviewer",
+      "checks": [
+        "one useful teammate action per role",
+        "failure is legible and recoverable",
+        "finite reserve visible",
+        "cooperative acknowledgement can be learned",
+        "companions remain characters rather than dashboards",
+        "no simulation win represented as real work"
+      ],
+      "evidence": [
+        "encounter fixture",
+        "observed interaction receipt when implemented"
+      ]
+    },
+    {
+      "id": "runtime_boundary",
+      "responsibility": "Agent systems reviewer",
+      "checks": [
+        "fiction never authorizes tools",
+        "fixed budget, retry and stop contracts",
+        "independent artifact acceptance",
+        "provenance and source revision preserved",
+        "duplicate work and missing acknowledgements are tested",
+        "no live-agent execution claimed without observed receipts"
+      ],
+      "evidence": [
+        "bounded task fixture",
+        "runtime test receipts",
+        "clear implemented/planned state"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "review_id": "review:fl02:seli",
+      "target_id": "character:seli",
+      "asset_ids": [
+        "fl02-seli-sheet",
+        "fl02-seli-hero"
+      ],
+      "state": "pending",
+      "reviewer_id": null,
+      "decision": null,
+      "findings": [],
+      "evidence_refs": []
+    },
+    {
+      "review_id": "review:fl02:tovan",
+      "target_id": "character:tovan",
+      "asset_ids": [
+        "fl02-tovan-sheet",
+        "fl02-tovan-hero"
+      ],
+      "state": "pending",
+      "reviewer_id": null,
+      "decision": null,
+      "findings": [],
+      "evidence_refs": []
+    },
+    {
+      "review_id": "review:fl02:aven",
+      "target_id": "character:aven",
+      "asset_ids": [
+        "fl02-aven-sheet",
+        "fl02-aven-hero"
+      ],
+      "state": "pending",
+      "reviewer_id": null,
+      "decision": null,
+      "findings": [],
+      "evidence_refs": []
+    },
+    {
+      "review_id": "review:fl02:orra",
+      "target_id": "character:orra",
+      "asset_ids": [
+        "fl02-orra-sheet",
+        "fl02-orra-hero"
+      ],
+      "state": "pending",
+      "reviewer_id": null,
+      "decision": null,
+      "findings": [],
+      "evidence_refs": []
+    },
+    {
+      "review_id": "review:fl02:caelis",
+      "target_id": "character:caelis",
+      "asset_ids": [
+        "fl02-caelis-sheet",
+        "fl02-caelis-hero"
+      ],
+      "state": "pending",
+      "reviewer_id": null,
+      "decision": null,
+      "findings": [],
+      "evidence_refs": []
+    },
+    {
+      "review_id": "review:fl02:velis",
+      "target_id": "character:velis",
+      "asset_ids": [
+        "fl02-velis-sheet",
+        "fl02-velis-hero"
+      ],
+      "state": "pending",
+      "reviewer_id": null,
+      "decision": null,
+      "findings": [],
+      "evidence_refs": []
+    },
+    {
+      "review_id": "review:fl02:pelora",
+      "target_id": "character:pelora",
+      "asset_ids": [
+        "fl02-pelora-sheet",
+        "fl02-pelora-hero"
+      ],
+      "state": "pending",
+      "reviewer_id": null,
+      "decision": null,
+      "findings": [],
+      "evidence_refs": []
+    },
+    {
+      "review_id": "review:fl02:brambletide",
+      "target_id": "character:brambletide",
+      "asset_ids": [
+        "fl02-brambletide-sheet",
+        "fl02-brambletide-hero"
+      ],
+      "state": "pending",
+      "reviewer_id": null,
+      "decision": null,
+      "findings": [],
+      "evidence_refs": []
+    },
+    {
+      "review_id": "review:fl02:kethr",
+      "target_id": "character:kethr",
+      "asset_ids": [
+        "fl02-kethr-sheet",
+        "fl02-kethr-hero"
+      ],
+      "state": "pending",
+      "reviewer_id": null,
+      "decision": null,
+      "findings": [],
+      "evidence_refs": []
+    },
+    {
+      "review_id": "review:fl02:vessakar",
+      "target_id": "character:vessakar",
+      "asset_ids": [
+        "fl02-vessakar-sheet",
+        "fl02-vessakar-hero"
+      ],
+      "state": "pending",
+      "reviewer_id": null,
+      "decision": null,
+      "findings": [],
+      "evidence_refs": []
+    }
+  ],
+  "integration_checks": [
+    {
+      "id": "batch-count",
+      "criterion": "10 new characters; 20 generated images; 2 intended assets per character",
+      "state": "pending_asset_manifest"
+    },
+    {
+      "id": "public-route",
+      "criterion": "Gallery route serves each asset and labels proposal state",
+      "state": "pending_production_verification"
+    },
+    {
+      "id": "canonical-registration",
+      "criterion": "Lore packet exists in a PR against the fictional canon authority",
+      "state": "pending_pr"
+    },
+    {
+      "id": "production-receipt",
+      "criterion": "Vercel receipt pins team, project, environment, deployment and source revision",
+      "state": "pending_deployment"
+    }
+  ]
+}
