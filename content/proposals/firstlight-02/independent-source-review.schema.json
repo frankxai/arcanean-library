@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:arcanea:firstlight:aggregate-source-review:1.0.0",
+  "title": "Aggregate independent source review",
+  "description": "Source-level review may cover multiple lenses before image or production acceptance. Image hashes remain null when images are outside the inspected scope.",
+  "type": "object",
+  "required": ["review_id", "target_id", "source_commit", "source_sha256", "asset_sha256", "lens", "reviewer_id", "reviewed_on", "decision", "canon_acceptance", "findings", "checks", "evidence_refs", "scope_limits"],
+  "properties": {
+    "source_commit": {"type": "string", "pattern": "^[a-f0-9]{40}$"},
+    "source_sha256": {"type": "object", "minProperties": 1, "additionalProperties": {"type": "string", "pattern": "^[a-f0-9]{64}$"}},
+    "asset_sha256": {"oneOf": [{"type": "null"}, {"type": "array", "items": {"type": "string", "pattern": "^[a-f0-9]{64}$"}}]},
+    "lens": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"enum": ["story_and_canon", "runtime_boundary", "gameplay_source", "visual_identity"]}},
+    "reviewer_id": {"type": "string", "minLength": 3},
+    "decision": {"enum": ["accept_display_revision", "revise", "reject", "defer"]},
+    "canon_acceptance": {"const": false},
+    "findings": {"type": "array"},
+    "checks": {"type": "array", "minItems": 1, "items": {"type": "string"}},
+    "evidence_refs": {"type": "array", "minItems": 1, "items": {"type": "string"}},
+    "scope_limits": {"type": "array", "minItems": 1, "items": {"type": "string"}}
+  }
+}

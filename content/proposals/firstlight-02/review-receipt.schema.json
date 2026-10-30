@@ -9,7 +9,7 @@
   "properties": {
     "schema_version": {"const": "1.0.0"},
     "review_id": {"type": "string", "minLength": 8},
-    "target_id": {"type": "string", "minLength": 3},
+    "target_id": {"type": "string", "pattern": "^arcanea\\.fl02\\.[a-z]+(?:\\.(?:sheet|hero)\\.v[1-9][0-9]*)?$"},
     "source_commit": {"type": "string", "pattern": "^[a-f0-9]{40}$"},
     "asset_sha256": {"type": "array", "items": {"type": "string", "pattern": "^[a-f0-9]{64}$"}, "uniqueItems": true},
     "lens": {"enum": ["visual_identity", "story_and_canon", "gameplay", "runtime_boundary"]},

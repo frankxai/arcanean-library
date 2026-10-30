@@ -60,12 +60,31 @@
   },
   "collision_check": {
     "status": "checked_within_named_sources",
-    "scope": "Prior Firstlight 15-character dossiers and current Arcanean Library tracked content. No claim to a worldwide name clearance or all unpublished canon.",
+    "scope": "Prior Firstlight 15-character dossiers and current Arcanean Library tracked content; additional public-proposal component-name overlap is recorded separately. No worldwide name clearance or access to all unpublished canon is claimed.",
     "renamed": [
       {
         "from": "Veya",
         "to": "Velis",
         "reason": "Veya of Convergence already appears in the Oracles Proto Codex."
+      }
+    ],
+    "additional_advisories": [
+      {
+        "name": "Aven",
+        "related_names": [
+          "Aven Tor",
+          "Sel Aven"
+        ],
+        "relationship": "First-name or component overlap; distinct full names and stable IDs. Aven — The Windskipper remains the locked new batch identity.",
+        "source_repository": "frankxai/arcanea-ai-app",
+        "source_commit": "83bda2865a8fc3a512a8080c466780305f9cefa8",
+        "source_path": "apps/web/lib/visual-encyclopedia/characters.ts",
+        "source_locators": [
+          "line 6, id C21 / slug aven-tor",
+          "line 28, id C36 / slug sel-aven"
+        ],
+        "reviewer": "agent:/root/review",
+        "state": "public_proposal_scope_advisory_not_canon_or_rights_clearance"
       }
     ],
     "previous_character_names": [
@@ -180,21 +199,30 @@
       "created_on": "2026-10-30",
       "modified_on": "2026-10-30",
       "review": {
-        "status": "awaiting_independent_review",
+        "status": "display_approved_canon_pending",
         "required_lenses": [
           "visual_identity",
           "story_and_canon",
           "gameplay",
           "runtime_boundary"
         ],
-        "decision": null,
-        "reviewer": null
+        "decision": "accept_display_revision",
+        "reviewer": "agent:/root/review"
       },
       "peer_review": {
-        "status": "not_reviewed",
-        "verdict": null,
-        "reviewer": null,
-        "receipt_ref": null
+        "status": "approved_for_exhibition",
+        "verdict": "accept_display_revision",
+        "reviewer": "agent:/root/review",
+        "receipt_ref": "review/independent-visual-v1.json",
+        "scope": "Public concept review exhibition under current owner instruction; not canon, rig or commercial rights acceptance.",
+        "canon_acceptance": false,
+        "inspected_asset_sha256": [
+          "e4668853b1e218bd37aba2bb80ea42ce22bf2b052552b9958426452a6a066c3d",
+          "7a3079009df39bc438f6323b1d5d7a640725cb6828cd27c304f9d0a105509417"
+        ],
+        "continuity_notes": [
+          "Scale exploration differs from hand-sized 0.22m lore proposal."
+        ]
       }
     },
     {
@@ -292,21 +320,28 @@
       "created_on": "2026-10-30",
       "modified_on": "2026-10-30",
       "review": {
-        "status": "awaiting_independent_review",
+        "status": "display_approved_canon_pending",
         "required_lenses": [
           "visual_identity",
           "story_and_canon",
           "gameplay",
           "runtime_boundary"
         ],
-        "decision": null,
-        "reviewer": null
+        "decision": "accept_display_revision",
+        "reviewer": "agent:/root/review"
       },
       "peer_review": {
-        "status": "not_reviewed",
-        "verdict": null,
-        "reviewer": null,
-        "receipt_ref": null
+        "status": "approved_for_exhibition",
+        "verdict": "accept_display_revision",
+        "reviewer": "agent:/root/review",
+        "receipt_ref": "review/independent-visual-v1.json",
+        "scope": "Public concept review exhibition under current owner instruction; not canon, rig or commercial rights acceptance.",
+        "canon_acceptance": false,
+        "inspected_asset_sha256": [
+          "932b83cf251b3439ec6d66559d76787f33da2a3c01f97bf225281b6346ec0b50",
+          "b4eca21ab0332becdbb578fdd312fd03b428eba36a8ac92d889598174739af77"
+        ],
+        "continuity_notes": []
       }
     },
     {
@@ -404,21 +439,28 @@
       "created_on": "2026-10-30",
       "modified_on": "2026-10-30",
       "review": {
-        "status": "awaiting_independent_review",
+        "status": "display_approved_canon_pending",
         "required_lenses": [
           "visual_identity",
           "story_and_canon",
           "gameplay",
           "runtime_boundary"
         ],
-        "decision": null,
-        "reviewer": null
+        "decision": "accept_display_revision",
+        "reviewer": "agent:/root/review"
       },
       "peer_review": {
-        "status": "not_reviewed",
-        "verdict": null,
-        "reviewer": null,
-        "receipt_ref": null
+        "status": "approved_for_exhibition",
+        "verdict": "accept_display_revision",
+        "reviewer": "agent:/root/review",
+        "receipt_ref": "review/independent-visual-v1.json",
+        "scope": "Public concept review exhibition under current owner instruction; not canon, rig or commercial rights acceptance.",
+        "canon_acceptance": false,
+        "inspected_asset_sha256": [
+          "e4abc9c8d72f844549550baa2f102554df25eb2ea5c680bc46715ec3f4517278",
+          "34a220f25befdb0076c7f7ca6a714ad5b579c622f190ef6c46d2e4a81c0d2104"
+        ],
+        "continuity_notes": []
       }
     },
     {
@@ -515,21 +557,28 @@
       "created_on": "2026-10-30",
       "modified_on": "2026-10-30",
       "review": {
-        "status": "awaiting_independent_review",
+        "status": "display_approved_canon_pending",
         "required_lenses": [
           "visual_identity",
           "story_and_canon",
           "gameplay",
           "runtime_boundary"
         ],
-        "decision": null,
-        "reviewer": null
+        "decision": "accept_display_revision",
+        "reviewer": "agent:/root/review"
       },
       "peer_review": {
-        "status": "not_reviewed",
-        "verdict": null,
-        "reviewer": null,
-        "receipt_ref": null
+        "status": "approved_for_exhibition",
+        "verdict": "accept_display_revision",
+        "reviewer": "agent:/root/review",
+        "receipt_ref": "review/independent-visual-v1.json",
+        "scope": "Public concept review exhibition under current owner instruction; not canon, rig or commercial rights acceptance.",
+        "canon_acceptance": false,
+        "inspected_asset_sha256": [
+          "5dd797ac78d68db88bc9caafdf20b61dd116a9610715243ff58618d3d83c0a57",
+          "35bcad1d8e00da8bef4be005dfb93484b0575872ddc969ce463a0a41928b4465"
+        ],
+        "continuity_notes": []
       }
     },
     {
@@ -629,21 +678,28 @@
       "created_on": "2026-10-30",
       "modified_on": "2026-10-30",
       "review": {
-        "status": "awaiting_independent_review",
+        "status": "display_approved_canon_pending",
         "required_lenses": [
           "visual_identity",
           "story_and_canon",
           "gameplay",
           "runtime_boundary"
         ],
-        "decision": null,
-        "reviewer": null
+        "decision": "accept_display_revision",
+        "reviewer": "agent:/root/review"
       },
       "peer_review": {
-        "status": "not_reviewed",
-        "verdict": null,
-        "reviewer": null,
-        "receipt_ref": null
+        "status": "approved_for_exhibition",
+        "verdict": "accept_display_revision",
+        "reviewer": "agent:/root/review",
+        "receipt_ref": "review/independent-visual-v1.json",
+        "scope": "Public concept review exhibition under current owner instruction; not canon, rig or commercial rights acceptance.",
+        "canon_acceptance": false,
+        "inspected_asset_sha256": [
+          "938d1b558db8f1bf8d33d2c5f5ba5a1cb43698331781943c736f4c15fd935c67",
+          "af876ac72f192f5f15da17c39b91d4470ede42b81c73ef5c84f19b141c330359"
+        ],
+        "continuity_notes": []
       }
     },
     {
@@ -742,21 +798,28 @@
       "created_on": "2026-10-30",
       "modified_on": "2026-10-30",
       "review": {
-        "status": "awaiting_independent_review",
+        "status": "display_approved_canon_pending",
         "required_lenses": [
           "visual_identity",
           "story_and_canon",
           "gameplay",
           "runtime_boundary"
         ],
-        "decision": null,
-        "reviewer": null
+        "decision": "accept_display_revision",
+        "reviewer": "agent:/root/review"
       },
       "peer_review": {
-        "status": "not_reviewed",
-        "verdict": null,
-        "reviewer": null,
-        "receipt_ref": null
+        "status": "approved_for_exhibition",
+        "verdict": "accept_display_revision",
+        "reviewer": "agent:/root/review",
+        "receipt_ref": "review/independent-visual-v1.json",
+        "scope": "Public concept review exhibition under current owner instruction; not canon, rig or commercial rights acceptance.",
+        "canon_acceptance": false,
+        "inspected_asset_sha256": [
+          "d50a362b400c83cce5a04bddfb91e1acd5dc6f7fe34ec62a654c5605684bfa2c",
+          "79d54bd035490389d1b7fda454a24c1788019f95adedf4f71e9c1143a70b50ad"
+        ],
+        "continuity_notes": []
       }
     },
     {
@@ -854,21 +917,28 @@
       "created_on": "2026-10-30",
       "modified_on": "2026-10-30",
       "review": {
-        "status": "awaiting_independent_review",
+        "status": "display_approved_canon_pending",
         "required_lenses": [
           "visual_identity",
           "story_and_canon",
           "gameplay",
           "runtime_boundary"
         ],
-        "decision": null,
-        "reviewer": null
+        "decision": "accept_display_revision",
+        "reviewer": "agent:/root/review"
       },
       "peer_review": {
-        "status": "not_reviewed",
-        "verdict": null,
-        "reviewer": null,
-        "receipt_ref": null
+        "status": "approved_for_exhibition",
+        "verdict": "accept_display_revision",
+        "reviewer": "agent:/root/review",
+        "receipt_ref": "review/independent-visual-v1.json",
+        "scope": "Public concept review exhibition under current owner instruction; not canon, rig or commercial rights acceptance.",
+        "canon_acceptance": false,
+        "inspected_asset_sha256": [
+          "739388f5f0cb073a2a85ebc6a50449cd2d7d53d37f1c915912e9952e20f9cedb",
+          "c8497f968f194b7712f0f469eeb92a3e81f07f7810e77c6bf84d53eaeb4513e0"
+        ],
+        "continuity_notes": []
       }
     },
     {
@@ -968,21 +1038,28 @@
       "created_on": "2026-10-30",
       "modified_on": "2026-10-30",
       "review": {
-        "status": "awaiting_independent_review",
+        "status": "display_approved_canon_pending",
         "required_lenses": [
           "visual_identity",
           "story_and_canon",
           "gameplay",
           "runtime_boundary"
         ],
-        "decision": null,
-        "reviewer": null
+        "decision": "accept_display_revision",
+        "reviewer": "agent:/root/review"
       },
       "peer_review": {
-        "status": "not_reviewed",
-        "verdict": null,
-        "reviewer": null,
-        "receipt_ref": null
+        "status": "approved_for_exhibition",
+        "verdict": "accept_display_revision",
+        "reviewer": "agent:/root/review",
+        "receipt_ref": "review/independent-visual-v1.json",
+        "scope": "Public concept review exhibition under current owner instruction; not canon, rig or commercial rights acceptance.",
+        "canon_acceptance": false,
+        "inspected_asset_sha256": [
+          "4cbdc73a321a640ff312e7597081139fe793f76096aa67fd79553abb9d03c4a2",
+          "aba342dc7dd14c904b59bcdc99769b50f407aa5ed1066086aa4d5570efc27c84"
+        ],
+        "continuity_notes": []
       }
     },
     {
@@ -1078,21 +1155,30 @@
       "created_on": "2026-10-30",
       "modified_on": "2026-10-30",
       "review": {
-        "status": "awaiting_independent_review",
+        "status": "display_approved_canon_pending",
         "required_lenses": [
           "visual_identity",
           "story_and_canon",
           "gameplay",
           "runtime_boundary"
         ],
-        "decision": null,
-        "reviewer": null
+        "decision": "accept_display_revision",
+        "reviewer": "agent:/root/review"
       },
       "peer_review": {
-        "status": "not_reviewed",
-        "verdict": null,
-        "reviewer": null,
-        "receipt_ref": null
+        "status": "approved_for_exhibition",
+        "verdict": "accept_display_revision",
+        "reviewer": "agent:/root/review",
+        "receipt_ref": "review/independent-visual-v1.json",
+        "scope": "Public concept review exhibition under current owner instruction; not canon, rig or commercial rights acceptance.",
+        "canon_acceptance": false,
+        "inspected_asset_sha256": [
+          "7e31fa1ae9f93180472b1121793e0c2c466b2b1fc94848e04b176c696b3367b3",
+          "7e39d68b16b8218dfe0aa5edbeac95e4b8a2d9a5bed223ee78e7fc803202414f"
+        ],
+        "continuity_notes": [
+          "Pointed spearhead differs from blunt pole-lance brief."
+        ]
       }
     },
     {
@@ -1190,21 +1276,30 @@
       "created_on": "2026-10-30",
       "modified_on": "2026-10-30",
       "review": {
-        "status": "awaiting_independent_review",
+        "status": "display_approved_canon_pending",
         "required_lenses": [
           "visual_identity",
           "story_and_canon",
           "gameplay",
           "runtime_boundary"
         ],
-        "decision": null,
-        "reviewer": null
+        "decision": "accept_display_revision",
+        "reviewer": "agent:/root/review"
       },
       "peer_review": {
-        "status": "not_reviewed",
-        "verdict": null,
-        "reviewer": null,
-        "receipt_ref": null
+        "status": "approved_for_exhibition",
+        "verdict": "accept_display_revision",
+        "reviewer": "agent:/root/review",
+        "receipt_ref": "review/independent-visual-v1.json",
+        "scope": "Public concept review exhibition under current owner instruction; not canon, rig or commercial rights acceptance.",
+        "canon_acceptance": false,
+        "inspected_asset_sha256": [
+          "eda315433951a71e146b7a3acc8bc3f148f3b662943ceb5ca1c92dec6286108d",
+          "20667209120b5a019873a40b8d81fc47a16f87eac5cf84b6b1b79272b0d8a4dd"
+        ],
+        "continuity_notes": [
+          "Some specified six limbs occluded by vault and perspective."
+        ]
       }
     }
   ],

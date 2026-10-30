@@ -1,11 +1,11 @@
 {
   "review_id": "review:fl02:independent-source-v1",
   "target_id": "arcanea-firstlight-02",
-  "source_commit": null,
-  "source_commit_status": "local_bytes_before_lore_commit",
+  "source_commit": "e0bd1582c2ae306f21dd7c1101e73ae1ffa28ea8",
+  "source_commit_status": "committed_source_reviewed",
   "source_sha256": {
     "characters.json": "2031e9b595e813e10d0f724f51e348070a94f0dc78aa652f6c12b72d66d65ee5",
-    "STORY-BIBLE.md": "19d8a8026a4c831f24558d3196bce869191c4ad76e1293c8f58d63ec2d44c485",
+    "STORY-BIBLE.md": "b67883025896beab4a4f5eed38f6883d102731cdfda06c2a7502dc673944d2b8",
     "review-queue.json": "fffc6730f9330a26d6c397a7d3da2e332cda0f89cb12d224a37df3d78795fe7e",
     "visual-specs.json": "85a9b48072bf255df8063005f3ce2486875265e4d3e6d74c3ed435a43dc8a079"
   },
@@ -28,7 +28,8 @@
     "Every character has finite costs, limits, review evidence criterion and fictional authority boundary.",
     "All records retain proposal state and public review visibility.",
     "16 deterministic gameplay tests independently pass after receipt/artifact integrity fixes.",
-    "Mission templates and Unreal handoff label live adapters/engine production specification-only."
+    "Mission templates and Unreal handoff label live adapters/engine production specification-only.",
+    "Source receipt bound to lore proposal commit e0bd1582c2ae306f21dd7c1101e73ae1ffa28ea8; trailing-space-only story cleanup reviewed, no semantic change."
   ],
   "evidence_refs": [
     "review-evidence.json",
@@ -37,5 +38,8 @@
   "scope_limits": [
     "Not a canon acceptance, trademark clearance, production deployment acceptance or live agent benchmark.",
     "Visual and device browser review recorded separately."
-  ]
+  ],
+  "source_repository": "frankxai/arcanean-library",
+  "source_path": "content/proposals/firstlight-02",
+  "updated_at": "2026-10-30T13:13:14.382697+00:00"
 }

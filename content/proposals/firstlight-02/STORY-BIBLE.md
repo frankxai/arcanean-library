@@ -1,6 +1,6 @@
 # Arcanea Firstlight II — The Kindred Realms
 
-**State:** public design proposals awaiting review. No new character, relationship, territory or cosmological office is accepted canon.
+**State:** public design proposals. Twenty images have independent approval for a concept review exhibition; the canon decision remains pending. No new character, relationship, territory or cosmological office is accepted canon.
 
 A world people want to enter needs small lives worth protecting and great powers that know when to make room. This chapter introduces six companions, two protective guardians and two contained opponents. The companions do useful things together; the guardians preserve the conditions for life; the opponents reveal coordination failures that can be understood and repaired.
 
