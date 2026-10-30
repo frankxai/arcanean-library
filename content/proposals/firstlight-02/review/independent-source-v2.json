@@ -1,0 +1,66 @@
+{
+  "schema_version": "1.0.0",
+  "review_id": "review:fl02:independent-source-v2",
+  "target_id": "arcanea-firstlight-02",
+  "source_commit": "073bf9808fae945ee2b2d002dfe67e525482ff0b",
+  "source_commit_status": "committed_source_reviewed",
+  "source_repository": "frankxai/arcanean-library",
+  "source_path": "content/proposals/firstlight-02",
+  "source_sha256": {
+    "characters.json": "35dab3c1d884b877f64a6f3fd5378f1183b2454570449f2fc3a4c9026352a6ed",
+    "STORY-BIBLE.md": "0ce23d1f16028b108c45e006970d2e71917a67c6e3c899ee96ee1687dcb80003",
+    "review-queue.json": "c6c09a7b57c37e4dc1d7d611a8fde5dc2a14aca711f414b449bc72eae2980425",
+    "visual-specs.json": "85a9b48072bf255df8063005f3ce2486875265e4d3e6d74c3ed435a43dc8a079",
+    "assets-production.json": "084bcaeefdd046eb8453d38be2baedbd6240e7d52d0e5acbd422d9e747c962d4",
+    "media-receipt.json": "5a362120ee71f51b5fdf718a2e4e10d23e412806545037890a320f436f377915",
+    "media-exhibition-approval.json": "6be69b7458a7ab6df9fb1bcb97eb957ff43b8a9bac48488d8686d81514a38681",
+    "characters.schema.json": "0291367d6d9e95800b896ae50306b8aaaeb9d5c4abd325421ed857d3987c39cb",
+    "review-receipt.schema.json": "d618c60ea6c5fc60cb186ac083beb062cdf2ac88edba703ba99cbfb55b398c4e",
+    "independent-source-review.schema.json": "3fe4d97b667447802360e72b5813edf73d474f2752082f2c2b83b38757306beb",
+    "validate-story.py": "8639714b0e80a25ce39ce06dae2ca6f051d31e513c7ff09c7a9c169d112608a4"
+  },
+  "asset_sha256": null,
+  "lens": [
+    "story_and_canon",
+    "runtime_boundary",
+    "gameplay_source",
+    "visual_identity"
+  ],
+  "reviewer_id": "agent:/root/review",
+  "reviewed_on": "2026-10-30",
+  "updated_at": "2026-10-30T13:34:01.531390+00:00",
+  "decision": "accept_display_revision",
+  "canon_acceptance": false,
+  "new_external_license_grant": false,
+  "findings": [],
+  "checks": [
+    "Five authoritative remote Git blobs fetched at the exact candidate ref match reviewed local bytes: characters, story, review queue, media catalog and delivery receipt.",
+    "Ten unique new full identities against inspected prior fifteen/current Library sources; the Aven component-name public-catalog advisory preserves its exact source commit and locators.",
+    "Role distribution: six companions, two guardians, two opponents. Frozen visual identities match the specification.",
+    "Canonical review target IDs resolve to arcanea.fl02.* with portable character:* references retained.",
+    "All lore records remain proposals. Character peer reviews and queue decisions approve public concept exhibition only; no canon acceptance.",
+    "All twenty originals were visually inspected individually. Twenty unique SHA-256 values, dimensions and exact prompt hashes were verified; ten hero-to-sheet reference chains remain intact.",
+    "All forty public Blob objects were independently downloaded: HTTP 200, complete SHA-256 and byte-count checks pass. Twenty WebP derivatives link to their approved original masters.",
+    "Seli scale variation, Kethr pointed-prop variation and Vessakar occluded limb topology remain explicit review notes.",
+    "The schema validator independently passes using the documented isolated jsonschema 4.26.0 dependency.",
+    "Sixteen deterministic gameplay tests independently pass. Source identity, receipt, digest and artifact IDs are enforced after the discovered gaps were repaired.",
+    "Unreal and live-agent mission artifacts explicitly remain specifications."
+  ],
+  "evidence_refs": [
+    "review/independent-visual-v1.json",
+    "review/independent-media-v1.json",
+    "review-evidence.json",
+    "STORY-REGISTRATION.md",
+    "https://github.com/frankxai/arcanea-ai-app/blob/83bda2865a8fc3a512a8080c466780305f9cefa8/apps/web/lib/visual-encyclopedia/characters.ts"
+  ],
+  "scope_limits": [
+    "Independent source, visual and media-delivery review for the authorized public concept exhibition.",
+    "Production application build, lint, typecheck and rendered device interaction gates are separate pending release checks.",
+    "No canon acceptance, production rig, Unreal executable, live-agent benchmark, trademark clearance or new license grant."
+  ],
+  "validation": {
+    "command": "PYTHONPATH=batch-02/.validation-deps python3 lore-repo/content/proposals/firstlight-02/validate-story.py",
+    "dependency": "jsonschema==4.26.0 (documented isolated install)",
+    "result": "pass"
+  }
+}

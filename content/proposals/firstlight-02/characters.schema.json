@@ -1,0 +1,67 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:arcanea:firstlight:batch:1.0.0",
+  "title": "Firstlight II public character proposal batch",
+  "type": "object",
+  "required": ["schema_version", "batch_id", "title", "canon_state", "visibility", "authority", "sources", "rights", "characters", "runtime_boundary"],
+  "properties": {
+    "schema_version": {"const": "1.0.0"},
+    "batch_id": {"const": "arcanea-firstlight-02"},
+    "canon_state": {"const": "proposal"},
+    "visibility": {"const": "public"},
+    "authority": {
+      "type": "object",
+      "required": ["artifact_id", "canonical_repository", "canonical_path", "registry_commit", "lore_base_commit"],
+      "properties": {
+        "artifact_id": {"const": "artifact_arcanean_library_fiction"},
+        "canonical_repository": {"const": "frankxai/arcanean-library"},
+        "registry_commit": {"type": "string", "pattern": "^[a-f0-9]{40}$"},
+        "lore_base_commit": {"type": "string", "pattern": "^[a-f0-9]{40}$"}
+      }
+    },
+    "characters": {
+      "type": "array",
+      "minItems": 10,
+      "maxItems": 10,
+      "items": {"$ref": "#/$defs/character"},
+      "allOf": [
+        {"contains": {"properties": {"category": {"const": "companion"}}, "required": ["category"]}, "minContains": 6, "maxContains": 6},
+        {"contains": {"properties": {"category": {"const": "guardian"}}, "required": ["category"]}, "minContains": 2, "maxContains": 2},
+        {"contains": {"properties": {"category": {"const": "opponent"}}, "required": ["category"]}, "minContains": 2, "maxContains": 2}
+      ]
+    }
+  },
+  "$defs": {
+    "character": {
+      "type": "object",
+      "required": ["id", "character_id", "slug", "name", "title", "category", "canon_state", "visibility", "tagline", "description", "story", "visual", "teamwork", "relationships", "asset_ids", "power_authority", "review", "peer_review"],
+      "properties": {
+        "id": {"type": "string", "pattern": "^arcanea\\.fl02\\.[a-z]+$"},
+        "character_id": {"type": "string", "pattern": "^character:[a-z]+$"},
+        "slug": {"type": "string", "pattern": "^[a-z]+$"},
+        "name": {"type": "string", "minLength": 2},
+        "category": {"enum": ["companion", "guardian", "opponent"]},
+        "canon_state": {"const": "proposal"},
+        "visibility": {"const": "public"},
+        "power_authority": {"const": "fictional_presentation_only"},
+        "story": {
+          "type": "object",
+          "required": ["vow", "cost", "limitation", "flaw", "affection_detail", "hook", "repair_outcome"],
+          "additionalProperties": {"type": "string", "minLength": 8}
+        },
+        "visual": {
+          "type": "object",
+          "required": ["silhouette", "locked_identity", "identity_locks", "story_scene", "scale_m", "habitat"],
+          "properties": {"scale_m": {"type": "number", "exclusiveMinimum": 0}, "identity_locks": {"type": "array", "minItems": 3, "items": {"type": "string"}}}
+        },
+        "teamwork": {
+          "type": "object",
+          "required": ["role", "metaphor", "acceptance_criterion", "failure_encounter", "permission_boundary"],
+          "additionalProperties": {"type": "string", "minLength": 3}
+        },
+        "asset_ids": {"type": "array", "minItems": 2, "maxItems": 2, "uniqueItems": true, "items": {"type": "string", "pattern": "^fl02-[a-z]+-(sheet|hero)$"}},
+        "peer_review": {"type": "object", "required": ["status", "verdict", "reviewer", "receipt_ref"]}
+      }
+    }
+  }
+}

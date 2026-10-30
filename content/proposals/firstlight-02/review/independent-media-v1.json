@@ -1,0 +1,335 @@
+{
+  "schema_version": "1.0.0",
+  "review_id": "review:fl02:independent-media-v1",
+  "batch_id": "arcanea-firstlight-02",
+  "reviewer_id": "agent:/root/review",
+  "verified_at": "2026-10-30T13:27:02.808591+00:00",
+  "source_receipt_sha256": "5a362120ee71f51b5fdf718a2e4e10d23e412806545037890a320f436f377915",
+  "objects_checked": 40,
+  "asset_projection_records": 20,
+  "master_checksums_match_originals": true,
+  "state": "pass",
+  "checks": [
+    {
+      "id": "fl02-aven-sheet-master",
+      "http_status": 200,
+      "bytes": 2850919,
+      "sha256": "e4abc9c8d72f844549550baa2f102554df25eb2ea5c680bc46715ec3f4517278",
+      "content_type": "image/png",
+      "matches_manifest": true
+    },
+    {
+      "id": "fl02-aven-sheet-web",
+      "http_status": 200,
+      "bytes": 264556,
+      "sha256": "4cb42d580404288d54c46168a1db678a2949f41e80591b2be56e0fe7514b12ec",
+      "content_type": "image/webp",
+      "matches_manifest": true
+    },
+    {
+      "id": "fl02-aven-hero-master",
+      "http_status": 200,
+      "bytes": 2774409,
+      "sha256": "34a220f25befdb0076c7f7ca6a714ad5b579c622f190ef6c46d2e4a81c0d2104",
+      "content_type": "image/png",
+      "matches_manifest": true
+    },
+    {
+      "id": "fl02-aven-hero-web",
+      "http_status": 200,
+      "bytes": 285862,
+      "sha256": "86d944d826c9757abf9c235dd53d936a0822e7f57763d9a542aa57c0a58bdf9e",
+      "content_type": "image/webp",
+      "matches_manifest": true
+    },
+    {
+      "id": "fl02-brambletide-sheet-master",
+      "http_status": 200,
+      "bytes": 3717039,
+      "sha256": "4cbdc73a321a640ff312e7597081139fe793f76096aa67fd79553abb9d03c4a2",
+      "content_type": "image/png",
+      "matches_manifest": true
+    },
+    {
+      "id": "fl02-brambletide-sheet-web",
+      "http_status": 200,
+      "bytes": 504306,
+      "sha256": "1b04b9b0a0da0b796963902443a44cc4a7aa98f9931994100505df95da68ba53",
+      "content_type": "image/webp",
+      "matches_manifest": true
+    },
+    {
+      "id": "fl02-brambletide-hero-master",
+      "http_status": 200,
+      "bytes": 3358661,
+      "sha256": "aba342dc7dd14c904b59bcdc99769b50f407aa5ed1066086aa4d5570efc27c84",
+      "content_type": "image/png",
+      "matches_manifest": true
+    },
+    {
+      "id": "fl02-brambletide-hero-web",
+      "http_status": 200,
+      "bytes": 431358,
+      "sha256": "eaffba8202319784cee2e364af609a7d8cb436471720ba91bd453fb27fba59a7",
+      "content_type": "image/webp",
+      "matches_manifest": true
+    },
+    {
+      "id": "fl02-caelis-sheet-master",
+      "http_status": 200,
+      "bytes": 3122104,
+      "sha256": "938d1b558db8f1bf8d33d2c5f5ba5a1cb43698331781943c736f4c15fd935c67",
+      "content_type": "image/png",
+      "matches_manifest": true
+    },
+    {
+      "id": "fl02-caelis-sheet-web",
+      "http_status": 200,
+      "bytes": 351802,
+      "sha256": "4a518137314bc99cd949b2b85c0bc67bf608a12c06ec42a590253fcf871afdf9",
+      "content_type": "image/webp",
+      "matches_manifest": true
+    },
+    {
+      "id": "fl02-caelis-hero-master",
+      "http_status": 200,
+      "bytes": 2573745,
+      "sha256": "af876ac72f192f5f15da17c39b91d4470ede42b81c73ef5c84f19b141c330359",
+      "content_type": "image/png",
+      "matches_manifest": true
+    },
+    {
+      "id": "fl02-caelis-hero-web",
+      "http_status": 200,
+      "bytes": 271246,
+      "sha256": "f25cc8c5d3cff39fee1cd17d5b624755a16600d29b8f5e6c799055a083cef889",
+      "content_type": "image/webp",
+      "matches_manifest": true
+    },
+    {
+      "id": "fl02-kethr-sheet-master",
+      "http_status": 200,
+      "bytes": 2950907,
+      "sha256": "7e31fa1ae9f93180472b1121793e0c2c466b2b1fc94848e04b176c696b3367b3",
+      "content_type": "image/png",
+      "matches_manifest": true
+    },
+    {
+      "id": "fl02-kethr-sheet-web",
+      "http_status": 200,
+      "bytes": 296598,
+      "sha256": "5452b0970d97b45ff8c5b063ec5dda611506a47b0359a7574d4f5fff0b855c3b",
+      "content_type": "image/webp",
+      "matches_manifest": true
+    },
+    {
+      "id": "fl02-kethr-hero-master",
+      "http_status": 200,
+      "bytes": 2858758,
+      "sha256": "7e39d68b16b8218dfe0aa5edbeac95e4b8a2d9a5bed223ee78e7fc803202414f",
+      "content_type": "image/png",
+      "matches_manifest": true
+    },
+    {
+      "id": "fl02-kethr-hero-web",
+      "http_status": 200,
+      "bytes": 335218,
+      "sha256": "6cb1da68510d3e7528f92c2e03b78ec007d05fa374304d7b6c1ef5a59802083a",
+      "content_type": "image/webp",
+      "matches_manifest": true
+    },
+    {
+      "id": "fl02-orra-sheet-master",
+      "http_status": 200,
+      "bytes": 2809762,
+      "sha256": "5dd797ac78d68db88bc9caafdf20b61dd116a9610715243ff58618d3d83c0a57",
+      "content_type": "image/png",
+      "matches_manifest": true
+    },
+    {
+      "id": "fl02-orra-sheet-web",
+      "http_status": 200,
+      "bytes": 249844,
+      "sha256": "5c68c29a6b91cb9ed0a64fcd9f05fb4ca13f29846c85884648a73493053d3a38",
+      "content_type": "image/webp",
+      "matches_manifest": true
+    },
+    {
+      "id": "fl02-orra-hero-master",
+      "http_status": 200,
+      "bytes": 2573612,
+      "sha256": "35bcad1d8e00da8bef4be005dfb93484b0575872ddc969ce463a0a41928b4465",
+      "content_type": "image/png",
+      "matches_manifest": true
+    },
+    {
+      "id": "fl02-orra-hero-web",
+      "http_status": 200,
+      "bytes": 246052,
+      "sha256": "5085d31b526ec7f29a3b9b27e1ec168aa1d2429f4f02120b5b115ca30fc5fc61",
+      "content_type": "image/webp",
+      "matches_manifest": true
+    },
+    {
+      "id": "fl02-pelora-sheet-master",
+      "http_status": 200,
+      "bytes": 3196740,
+      "sha256": "739388f5f0cb073a2a85ebc6a50449cd2d7d53d37f1c915912e9952e20f9cedb",
+      "content_type": "image/png",
+      "matches_manifest": true
+    },
+    {
+      "id": "fl02-pelora-sheet-web",
+      "http_status": 200,
+      "bytes": 375444,
+      "sha256": "fe64a667bf08b6069c83c355a1618ebf7eeee1056426afdecfaec865a7075286",
+      "content_type": "image/webp",
+      "matches_manifest": true
+    },
+    {
+      "id": "fl02-pelora-hero-master",
+      "http_status": 200,
+      "bytes": 3214631,
+      "sha256": "c8497f968f194b7712f0f469eeb92a3e81f07f7810e77c6bf84d53eaeb4513e0",
+      "content_type": "image/png",
+      "matches_manifest": true
+    },
+    {
+      "id": "fl02-pelora-hero-web",
+      "http_status": 200,
+      "bytes": 393294,
+      "sha256": "3e3d8296be5ac8488b01ef2baebe5cd7b71541c596edab7ba2d0abeb3ddd05db",
+      "content_type": "image/webp",
+      "matches_manifest": true
+    },
+    {
+      "id": "fl02-seli-sheet-master",
+      "http_status": 200,
+      "bytes": 2504414,
+      "sha256": "e4668853b1e218bd37aba2bb80ea42ce22bf2b052552b9958426452a6a066c3d",
+      "content_type": "image/png",
+      "matches_manifest": true
+    },
+    {
+      "id": "fl02-seli-sheet-web",
+      "http_status": 200,
+      "bytes": 200358,
+      "sha256": "61c0d2d71b8aac680b8836157e429213d241f1d82321443d133de3ce4e8e9c71",
+      "content_type": "image/webp",
+      "matches_manifest": true
+    },
+    {
+      "id": "fl02-seli-hero-master",
+      "http_status": 200,
+      "bytes": 2687769,
+      "sha256": "7a3079009df39bc438f6323b1d5d7a640725cb6828cd27c304f9d0a105509417",
+      "content_type": "image/png",
+      "matches_manifest": true
+    },
+    {
+      "id": "fl02-seli-hero-web",
+      "http_status": 200,
+      "bytes": 287722,
+      "sha256": "eeed3f8c9abb2851ffff83968fa2dec028990a6906fe8598a7dda95ac7017181",
+      "content_type": "image/webp",
+      "matches_manifest": true
+    },
+    {
+      "id": "fl02-tovan-sheet-master",
+      "http_status": 200,
+      "bytes": 2836034,
+      "sha256": "932b83cf251b3439ec6d66559d76787f33da2a3c01f97bf225281b6346ec0b50",
+      "content_type": "image/png",
+      "matches_manifest": true
+    },
+    {
+      "id": "fl02-tovan-sheet-web",
+      "http_status": 200,
+      "bytes": 258350,
+      "sha256": "1fbc7be94b42aecd067cfd5d00c13d251043bb84a94ef27a09ec47a97b180089",
+      "content_type": "image/webp",
+      "matches_manifest": true
+    },
+    {
+      "id": "fl02-tovan-hero-master",
+      "http_status": 200,
+      "bytes": 2838174,
+      "sha256": "b4eca21ab0332becdbb578fdd312fd03b428eba36a8ac92d889598174739af77",
+      "content_type": "image/png",
+      "matches_manifest": true
+    },
+    {
+      "id": "fl02-tovan-hero-web",
+      "http_status": 200,
+      "bytes": 315646,
+      "sha256": "2c1046109d632bacaf382aef4dfa9ca86a3dcdfbe7af2488111ab5dbe0d54840",
+      "content_type": "image/webp",
+      "matches_manifest": true
+    },
+    {
+      "id": "fl02-velis-sheet-master",
+      "http_status": 200,
+      "bytes": 2874277,
+      "sha256": "d50a362b400c83cce5a04bddfb91e1acd5dc6f7fe34ec62a654c5605684bfa2c",
+      "content_type": "image/png",
+      "matches_manifest": true
+    },
+    {
+      "id": "fl02-velis-sheet-web",
+      "http_status": 200,
+      "bytes": 256636,
+      "sha256": "7cb09ad35c17e5c7c35eeb4bd0b64fd52e03193bb330d9653845203abd25752d",
+      "content_type": "image/webp",
+      "matches_manifest": true
+    },
+    {
+      "id": "fl02-velis-hero-master",
+      "http_status": 200,
+      "bytes": 2883303,
+      "sha256": "79d54bd035490389d1b7fda454a24c1788019f95adedf4f71e9c1143a70b50ad",
+      "content_type": "image/png",
+      "matches_manifest": true
+    },
+    {
+      "id": "fl02-velis-hero-web",
+      "http_status": 200,
+      "bytes": 334496,
+      "sha256": "3b643943d02c672491cedddedbcd3840fb956b1ff05cdfa25f47557bed160389",
+      "content_type": "image/webp",
+      "matches_manifest": true
+    },
+    {
+      "id": "fl02-vessakar-sheet-master",
+      "http_status": 200,
+      "bytes": 3288428,
+      "sha256": "eda315433951a71e146b7a3acc8bc3f148f3b662943ceb5ca1c92dec6286108d",
+      "content_type": "image/png",
+      "matches_manifest": true
+    },
+    {
+      "id": "fl02-vessakar-sheet-web",
+      "http_status": 200,
+      "bytes": 406308,
+      "sha256": "bcab58c77d4f566ea26d3b4be358174f57363f1252a0a282706cf38eeb2caa49",
+      "content_type": "image/webp",
+      "matches_manifest": true
+    },
+    {
+      "id": "fl02-vessakar-hero-master",
+      "http_status": 200,
+      "bytes": 3160192,
+      "sha256": "20667209120b5a019873a40b8d81fc47a16f87eac5cf84b6b1b79272b0d8a4dd",
+      "content_type": "image/png",
+      "matches_manifest": true
+    },
+    {
+      "id": "fl02-vessakar-hero-web",
+      "http_status": 200,
+      "bytes": 400110,
+      "sha256": "2bab42ffe904e638614637d47357ef635813b609ff72ff2f85519bbbeffcdba4",
+      "content_type": "image/webp",
+      "matches_manifest": true
+    }
+  ],
+  "scope": "Public immutable concept-review media delivery; no canon, rig or license acceptance."
+}
